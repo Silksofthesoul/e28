@@ -3,7 +3,7 @@
 
   class Logs {
     static log(...args) {
-      console.log(`${this.name}:`, ...args);
+      // console.log(`${this.name}:`, ...args);
     }
   }
 
