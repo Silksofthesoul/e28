@@ -1,6 +1,6 @@
 'use strict';
 (function () {
-  const { Base, Control } = $dep.import(['Base', 'Control']);
+  const { Base } = $dep.import(['Base']);
 
   class Panel extends Base{
     elRoot = null;
